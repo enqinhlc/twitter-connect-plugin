@@ -9,6 +9,9 @@ var TwitterConnect = {
 	},
 	showUser: function (successCallback, errorCallback) {
 		exec(successCallback, errorCallback, 'TwitterConnect', 'showUser', []);
+	},
+	accountVerify: function (successCallback, errorCallback) {
+		exec(successCallback, errorCallback, 'TwitterConnect', 'accountVerify', []);
 	}
 };
 
